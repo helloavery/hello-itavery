@@ -1,0 +1,605 @@
+/*!
+ * stylesheetskills.css
+ * Version: 2.0
+ * 
+ *
+ * Avery Grimes-Farrow
+ * itavery.com
+ * avery@itavery.com
+ * 2016.
+ * 
+ */
+
+/* NAVAGATION BAR */
+
+
+.main_h {
+  max-height: 70px;
+  width: 100%;
+  text-align: center;
+  background: none;
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+  font-family: "Montserrat", sans-serif;
+  margin:0;
+  
+}
+@media only screen and (max-width: 860px) {
+  .main_h {
+    padding-top: 25px;
+
+  }
+}
+
+.open-nav {
+  max-height: 400px !important;
+}
+.open-nav .mobile-toggle {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+#sticky {
+  background-color: rgba(255, 255, 255, 0.93);
+  opacity: 1;
+  top: 0px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.logo {
+  width: 115px;
+  font-size: 25px;
+  color: #8f8f8f;
+  text-transform: uppercase;
+  float: left;
+  display: block;
+  margin-top: 0;
+  line-height: 2.5;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 860px) {
+  .logo {
+    float: none;
+  }
+}
+
+nav {
+  float: right;
+  width: 75%;
+  
+}
+
+nav ul li :hover {
+    color:#4372AA;
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+}
+@media only screen and (max-width: 860px) {
+  nav {
+    width: 100%;
+  }
+}
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  text-align: right;
+  float: right;
+  
+  
+}
+@media only screen and (max-width: 860px) {
+  nav ul {
+    padding-top: 10px;
+    margin-bottom: 22px;
+    float: left;
+    text-align: center;
+    width: 100%;
+  }
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 7px;
+  line-height: 3.5;
+}
+@media only screen and (max-width: 860px) {
+  nav ul li {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+nav ul a {
+  color: #888888;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.mobile-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  right: 22px;
+  top: 0;
+  width: 30px;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+@media only screen and (max-width: 860px) {
+  .mobile-toggle {
+    display: block;
+  }
+}
+.mobile-toggle span {
+  width: 30px;
+  height: 4px;
+  margin-bottom: 6px;
+  border-radius: 1000px;
+  background: #8f8f8f;
+  display: block;
+}
+
+.row_nav {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 2%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*END OF NAVBAR*/
+
+#links {
+    text-align:center;
+}
+
+
+#pdfcontainer {
+    width: 50%;
+    height: auto;
+    text-align:center;
+    margin:auto;
+    text-align:center;
+    display:run-in;
+    font-family: 'Open Sans';
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+
+#pdflinks{
+    width: 100%;
+    height: auto;
+    text-align:center;
+    margin:auto;
+    margin-top:25px;
+    margin-bottom: 25px;
+    padding-top: 30px;
+    text-align:center;
+    display:run-in;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 20px;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+
+h1 {
+  text-align:center;
+  margin-top:0;
+  font-size: 30px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+body {
+  color: #8f8f8f;
+  background: white;
+  font-family: "Cardo", serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  margin:0;
+}
+
+
+.hero {
+  position: relative;
+  background-image:url('../photos/street.jpg');
+  background-size:cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 7%;
+  min-height: 550px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+.hero h1 {
+  font-size: 50px;
+  line-height: 1.3;
+}
+.hero h1 span {
+  font-size: 25px;
+  color: #e8f380;
+  border-bottom: 2px solid #e8f380;
+  padding-bottom: 12px;
+  line-height: 3;
+}
+
+.hero p a {
+    font-size: 30px;
+    color:#FFF;
+}
+
+.hero p a:visited {
+    color: #FFF;
+}
+
+.hero p a:hover {
+    color: #4372AA;
+    border-bottom: 2px solid #FFF;
+}
+
+.hero p a:active {
+    color: #FFF;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 50px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»»»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#resume {
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+  position: relative;
+  display:inline-block; 
+  margin-top: 15px;
+  margin-bottom: 120px;
+  width:100%;
+}
+
+#resume h5 {
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-size:25px;
+  color:#777;
+}
+
+#resume h5 a:visited {
+    color: #000;
+}
+
+#resume h5 a:active {
+    color:#000;
+}
+
+#resume h5 a:hover {
+    color: #4372AA;
+    border-bottom: 2px solid #FFF;
+}
+
+/*media link hover effect
+*/
+
+/* Blur + Gray Scale */
+.hover10 figure img {
+	-webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover10 figure:hover img {
+	-webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
+}
+
+
+.hover10 figure img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+body {
+  background: #FFF;
+  font-family: "Oswald", sans-serif;
+  
+}
+
+h1 {
+  color: #eee;
+  text-align: center;
+  margin: 20px 0;
+ 
+}
+
+
+#basic {
+    position: relative;
+    display:inline-block; 
+    margin-top: 15px;
+    margin-bottom: 2%;
+    width:100%;
+}
+
+#intermediate {
+    position: relative;
+    display:inline-block; 
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width:100%;
+}
+
+#proficient {
+    position: relative;
+    display:inline-block;  
+    margin-top: 15px;
+    margin-bottom: 40px;
+    width:100%;
+}
+
+#basic h1, #intermediate h1, #proficient h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    color:#000;
+    text-align:center;
+    padding:auto;
+    margin:auto;
+}
+
+#basic h3, #intermediate h3, #proficient h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color:#000;
+    text-align:center;
+    padding:auto;
+    margin:auto;
+}
+
+#basic h5, #intermediate h5, #proficient h5 {
+    width:100px;
+    text-align:center;
+    margin:0;
+    position: relative;
+    display:inline-block;
+    
+}
+
+#basic p, #intermediate p, #proficient p {
+    text-align:center;
+    margin:0;
+    margin-top:3%;
+    margin-bottom:3%
+    
+}
+
+
+/*IMPORT FULL WIDTH VIDEO*/
+/*
+
+*/
+
+.video-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.25);
+padding: 10px 0 32px;
+min-height: 496px; 
+/* Incase of overlay problems just increase the min-height*/
+}
+.video-section h1, .video-section h3{
+text-align:center;
+color:#fff;
+}
+.video-section h1{
+font-size:110px;
+font-family: 'Buenard', serif;
+font-weight:bold;
+text-transform: uppercase;
+margin: 40px auto 0px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.video-section h3{
+font-size: 25px;
+font-weight:lighter;
+font-family: "Montserrat", sans-serif;
+margin: 75px auto 15px;
+}
+.video-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+
+/*
+
+*/
+
+
+
+
+
+
+
+/* 7.1. Skills Info */
+
+.skills-info {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ededed;
+}
+
+.skills-info ul {
+	padding: 0px;
+}
+
+.skills-info ul li {
+	list-style: none;
+	margin-bottom: 2px;
+}
+
+.skills-info ul li p {
+	font-size: 17px;
+	color: #000;
+        font-family: "ebony",sans-serif;
+	margin-bottom: 1px;
+}
+
+.skills-info ul li p span {
+	float: right;
+	color: #000;pdf
+        font-family: "ebony",sans-serif;
+}
+
+.skills-bg {
+	height: 20px;
+	display: table;
+	width: 100%;
+	border: 1px solid #ededed;
+	position: relative;
+}
+
+
+.skills-bg span {
+	height: 20px;
+	display: table;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#basic skills-bg span {
+        background: #7093DB;
+}
+
+#intermediate skills-bg span {
+        background: #88ACE0;
+}
+
+#proficient skills-bg span {
+        background: #CAE1FF;
+}
+
+
+.skill1, .skill2, .skill3 {
+        background: #7093DB;
+	width: 0px;
+	-webkit-transition: all .7s ease-in-out;
+	-moz-transition: all .7s ease-in-out;
+	-o-transition: all .7s ease-in-out;
+	transition: all .7s ease-in-out;
+}
+
+.skill4, .skill5, .skill6, .skill7, .skill8, .skill9, .skill10 {
+        background: #88ACE0;
+	width: 0px;
+	-webkit-transition: all .7s ease-in-out;
+	-moz-transition: all .7s ease-in-out;
+	-o-transition: all .7s ease-in-out;
+	transition: all .7s ease-in-out;
+}
+
+.skill11, .skill12, .skill13, .skill14 {
+        background: #CAE1FF;
+	width: 0px;
+	-webkit-transition: all .7s ease-in-out;
+	-moz-transition: all .7s ease-in-out;
+	-o-transition: all .7s ease-in-out;
+	transition: all .7s ease-in-out;
+}
+
+
+
+
+#footer {
+    /* background-image:url('../photos/moving_through_space.gif'); */
+    font-family: "ebony",sans-serif;
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+    color: #000;
+    position: relative;
+    bottom:0;
+    padding-top:0.5%;
+    padding-left:3%;
+    margin-top:75px;
+
+}
+
+#footer h5 {
+    text-align: center;
+    padding:auto;
+    padding-bottom:0;
+    font-size: 17px;
+    font-family: "ebony",sans-serif;
+    font-weight: 300;
+}
+
+#footer h6 {
+    font-size: 65px;
+    font-family: "ebony",sans-serif;
+    font-weight: 300;
+    margin-top:5px;
+    margin-bottom:10px;
+
+}
+
+#footer table {
+    text-align: center;
+    padding: auto;
+    margin:auto;
+}
+
+#footer table td {
+    padding-bottom:5px;
+    padding-right:15px;
+    padding-left:15px;
+}

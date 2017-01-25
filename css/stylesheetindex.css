@@ -1,0 +1,520 @@
+/*!
+ * stylesheetindex.css
+ * Version: 2.5
+ * 
+ *
+ * Avery Grimes-Farrow
+ * itavery.com
+ * avery@itavery.com
+ * 2016/2017.
+ * 
+ */
+
+body { margin:0; /* This is used to reset any browser-default margins */ }
+
+.topbox {
+    margin-bottom:3%;
+    position:relative;
+    padding-top:7%;
+    width: 100%;
+    height:100vh;
+    background-image:url('../photos/skylantern.jpg');
+    background-size:cover;
+    font-family: 'Miriam Libre', sans-serif;
+    color: #FFF;
+    font-size:90px;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+
+
+/* NAVAGATION BAR */
+
+
+.main_h {
+  max-height: 70px;
+  width: 100%;
+  text-align: center;
+  background: none;
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+  font-family: "Montserrat", sans-serif;
+  margin:0;
+  
+}
+@media only screen and (max-width: 860px) {
+  .main_h {
+    padding-top: 25px;
+
+  }
+}
+
+.open-nav {
+  max-height: 400px !important;
+}
+.open-nav .mobile-toggle {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+#sticky {
+  background-color: rgba(255, 255, 255, 0.93);
+  opacity: 1;
+  top: 0px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.logo {
+  width: 115px;
+  font-size: 25px;
+  color: #8f8f8f;
+  text-transform: uppercase;
+  float: left;
+  display: block;
+  margin-top: 0;
+  line-height: 2.5;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 860px) {
+  .logo {
+    float: none;
+  }
+}
+
+nav {
+  float: right;
+  width: 75%;
+  
+}
+
+nav ul li :hover {
+    color:#4372AA;
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+}
+@media only screen and (max-width: 860px) {
+  nav {
+    width: 100%;
+  }
+}
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  text-align: right;
+  float: right;
+  
+  
+}
+@media only screen and (max-width: 860px) {
+  nav ul {
+    padding-top: 10px;
+    margin-bottom: 22px;
+    float: left;
+    text-align: center;
+    width: 100%;
+  }
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 7px;
+  line-height: 3.5;
+}
+@media only screen and (max-width: 860px) {
+  nav ul li {
+    width: 100%;
+    padding:  0;
+    margin: 0;
+  }
+}
+nav ul a {
+  color: #888888;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.mobile-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  right: 22px;
+  top: 0;
+  width: 30px;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+@media only screen and (max-width: 860px) {
+  .mobile-toggle {
+    display: block;
+  }
+}
+.mobile-toggle span {
+  width: 30px;
+  height: 4px;
+  margin-bottom: 6px;
+  border-radius: 1000px;
+  background: #8f8f8f;
+  display: block;
+}
+
+.row_nav {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 2%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*END OF NAVBAR*/
+
+
+h1 {
+  text-align:center;
+  color: #000;
+  margin-top:0;
+  font-size: 30px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+.hero {
+  position: relative;
+  background: #FFF ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  color: #000;
+  min-height: 250px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+.hero h1 {
+  font-size: 50px;
+  line-height: 1.3;
+  
+}
+.hero h1 span {
+  font-size: 25px;
+  color: #FFF;
+  border-bottom: 2px solid #5D92B1;
+  padding-bottom: 12px;
+  line-height: 3;
+}
+
+.hero table {
+    text-align: center;
+    padding: auto;
+    margin:auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+}
+
+.hero table h1 {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+}
+
+@media only screen and (max-width: 645px) {
+  .hero table h1 {
+    font-size: 20px;
+    position: relative;
+  }
+}
+
+.hero table img {
+    max-width: 65%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+}
+
+/* Modal/Pop Text Box */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    margin:auto;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 75%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: transparent;
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #777;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+
+
+/*Footer
+*/
+
+#footer {
+    /* background-image:url('../photos/moving_through_space.gif'); */
+    font-family: "ebony",sans-serif;
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+    color: #000;
+    position: relative;
+    bottom:0;
+    padding-top:0.5%;
+    padding-left:3%;
+    margin-top:75px;
+
+}
+
+#footer h5 {
+    text-align: center;
+    padding:auto;
+    padding-bottom:0;
+    font-size: 17px;
+    font-family: "ebony",sans-serif;
+    font-weight: 300;
+}
+
+#footer h6 {
+    font-size: 65px;
+    font-family: "ebony",sans-serif;
+    font-weight: 300;
+    margin-top:5px;
+    margin-bottom:10px;
+
+}
+
+#footer table {
+    text-align: center;
+    padding: auto;
+    margin:auto;
+}
+
+#footer table td {
+    padding-bottom:5px;
+    padding-right:15px;
+    padding-left:15px;
+}
+
+
+#overlay {
+    position: fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index:10;
+}
+
+/***********************************************************************************************/
+/* START HOME-STAR LESS */
+/***********************************************************************************************/
+.star-pattern-1 {
+  content: " ";
+  width: 100%;
+  height: 90.4vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: repeat;
+  opacity: .1;
+}
+
+.vertical-align {
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  top: 50%;
+  position: relative;
+  z-index: 300;
+}
+.align-center {
+  text-align: center !important;
+}
+/***********************************************************************************************/
+/* END HOME-STAR LESS */
+/***********************************************************************************************/
+
+@media (max-width: 800px) {
+
+  .star canvas {
+    visibility: hidden;
+  }
+
+}
+
+canvas {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.no-mb .breadcrumb.breadcrumb-fullscreen {
+    margin-bottom: 0;
+}
+
+.breadcrumb.breadcrumb-fullscreen {
+    margin-top: 0;
+}
+
+.breadcrumb.breadcrumb-fullscreen {
+    padding-top: 120px;
+    display: table;
+}
+
+.breadcrumb.alignleft {
+    float: none;
+    text-align: left;
+}
+
+.alignleft {
+    margin: 5px 20px 5px 0;
+    float: left;
+}
+
+.breadcrumb {
+    list-style: none;
+    border-radius: 0;
+    text-align: center;
+    background-position: center top;
+    z-index: 1;
+    background-image:url('../photos/skylantern.jpg');
+    background-size: cover;
+    width: 100%;
+    height:auto;
+    font-family: 'Miriam Libre', sans-serif;
+    color: #FFF;
+    font-size:90px;
+    text-transform: uppercase;
+    text-align:center;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.starTitle {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+/*!
+.col-sm-12{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 800px) {
+  .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1030px) {
+   .col-md-12 {
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+ */
